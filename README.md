@@ -1,33 +1,49 @@
-# True Daywalker — 0.3.0 Beta
+# True Daywalker — 0.4.4 Beta
 
-**One hybrid ruleset, day or night.**\n\n[![Release downloads](https://img.shields.io/github/downloads/Enigma-Amygdala/True-Daywalker-Release/v0.3.0-beta/total?label=downloads&cacheSeconds=60)](https://github.com/Enigma-Amygdala/True-Daywalker-Release/releases/tag/v0.3.0-beta)
+**One hybrid ruleset, day or night.**
+
+[![Release downloads](https://img.shields.io/github/downloads/Enigma-Amygdala/True-Daywalker-Release/v0.4.4-beta/total?label=downloads&cacheSeconds=60)](https://github.com/Enigma-Amygdala/True-Daywalker-Release/releases/tag/v0.4.4-beta)
 
 ## Download
 
-[**Download TrueDaywalker-0.3.0-Beta.zip**](https://github.com/Enigma-Amygdala/True-Daywalker-Release/releases/download/v0.3.0-beta/TrueDaywalker-0.3.0-Beta.zip)
+[**Download TrueDaywalker-0.4.4-Beta.zip**](https://github.com/Enigma-Amygdala/True-Daywalker-Release/releases/download/v0.4.4-beta/TrueDaywalker-0.4.4-Beta.zip)
 
-[View the GitHub Release](https://github.com/Enigma-Amygdala/True-Daywalker-Release/releases/tag/v0.3.0-beta)
+[View the GitHub Release](https://github.com/Enigma-Amygdala/True-Daywalker-Release/releases/tag/v0.4.4-beta)
+
+> **0.3.0 users should update.** 0.4.4 fixes a progression-blocking hybrid-form issue affecting Astral Communion at haunted sites and Compel interactions with eligible corpses.
 
 True Daywalker unifies Coen's human and vampire gameplay into one persistent hybrid ruleset in *The Blood of Dawnwalker*.
 
-## Compatibility
+## What's new in 0.4.4
 
-- Tested game build: `CL-258504`
-- Supported `Dawnwalker.exe` SHA-256: `E565BD97FBA398ECB1CA79CA2AA2CC2E5D43156A0937D7E202E73B3B85ED5086`
-- Unsupported executable builds fail closed.
+- Fixed Astral Communion and Compel activation in the hybrid ruleset while preserving native quest, target, range, combat, cost, learned-ability, and completion checks.
+- Day and Night ability quick-slot banks can both accept learned Witchcraft and vampire powers.
+- Added Sword → Claws → Fists → Sword weapon cycling.
+- Added fixed Claws and fixed Fists configuration modes.
+- Human Health/Restoration percentage bonuses now integrate with segmented Blood.
+- `Configure.cmd` now controls appearance, unarmed behavior, and traversal mode.
+- Compatibility validation is less brittle while still failing closed on unknown native-code changes.
+- Existing daytime feeding, consumable union, appearance selection, segmented Blood, and cross-phase ability behavior are preserved.
+
+## Known limitations
+
+- Wolf Form is the stable traversal option.
+- Haste / Mercurial Fervor remains unresolved in the hybrid traversal path.
+- Tap/Hold traversal remains experimental and is not the public default.
+- An extra sword flourish can occur when cycling from Fists back to Sword.
 
 ## Release integrity
 
-- ZIP SHA-256: `941db05da6bb40d0c96c125c8c62978c0297b8d2aaf755a2bdcc6f9ee8585ce1`
-- `version.dll` SHA-256: `c521990e5b8e69bab2178ddc5dbcd077211e908e87557c35a370d2b42c316237`
+- ZIP SHA-256: `15e171884234ae9cd9d4f54dbd17bc5da7925c0230fb57b98f93c3cd68bf791e`
+- `version.dll` SHA-256: `b0271a3e9d69a8e7feaa6bb148e4545cf9fc0b1abed6eff17921fb323e3b9bf8`
 
 ## Source and technical documentation
 
-The public source/audit repository is intentionally separate from this release mirror:
+The project source/audit repository is separate from this binary release mirror:
 
 https://github.com/Enigma-Amygdala/True-Daywalker
 
-It contains the retained source snapshot, build instructions, hashes, and security-review documentation.
+The retained public native source snapshot there currently documents 0.3.0; the release repository and 0.4.4 package carry the current 0.4.4 release notes, hashes, and security information.
 
 ## License
 
