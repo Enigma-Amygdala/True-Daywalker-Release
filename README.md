@@ -2,7 +2,11 @@
 
 **One hybrid ruleset, day or night.**
 
-[**Download TrueDaywalker-0.3.0-Beta.zip**](https://github.com/Enigma-Amygdala/True-Daywalker-Release/raw/refs/heads/main/TrueDaywalker-0.3.0-Beta.zip)
+## Download
+
+[**Download TrueDaywalker-0.3.0-Beta.zip**](https://github.com/Enigma-Amygdala/True-Daywalker-Release/releases/download/v0.3.0-beta/TrueDaywalker-0.3.0-Beta.zip)
+
+[View the GitHub Release](https://github.com/Enigma-Amygdala/True-Daywalker-Release/releases/tag/v0.3.0-beta)
 
 True Daywalker unifies Coen's human and vampire gameplay into one persistent hybrid ruleset in *The Blood of Dawnwalker*.
 
@@ -19,9 +23,17 @@ True Daywalker unifies Coen's human and vampire gameplay into one persistent hyb
 
 ## Source and technical documentation
 
-Source, build instructions, hashes, and security-review documentation:
+The public source/audit repository is intentionally separate from this release mirror:
 
 https://github.com/Enigma-Amygdala/True-Daywalker
+
+It contains the retained source snapshot, build instructions, hashes, and security-review documentation.
+
+## License
+
+True Daywalker is **source-available, not open source**. Inspection, security review, private personal compilation/modification, and contributions are permitted under the included license. Redistribution, public derivative releases, substantial incorporation into another distributed project, and commercial exploitation are not granted without prior written permission.
+
+See [LICENSE](LICENSE) for the exact terms.
 
 ## Nexus page
 
