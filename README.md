@@ -1,6 +1,6 @@
 # True Daywalker — 0.3.0 Beta
 
-**One hybrid ruleset, day or night.**\n\n[![Release downloads](https://img.shields.io/github/downloads/Enigma-Amygdala/True-Daywalker-Release/v0.3.0-beta/total?label=downloads)](https://github.com/Enigma-Amygdala/True-Daywalker-Release/releases/tag/v0.3.0-beta)
+**One hybrid ruleset, day or night.**\n\n[![Release downloads](https://img.shields.io/github/downloads/Enigma-Amygdala/True-Daywalker-Release/v0.3.0-beta/total?label=downloads&cacheSeconds=60)](https://github.com/Enigma-Amygdala/True-Daywalker-Release/releases/tag/v0.3.0-beta)
 
 ## Download
 
