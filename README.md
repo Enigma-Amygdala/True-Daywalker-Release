@@ -51,6 +51,10 @@ True Daywalker is **source-available, not open source**. Inspection, security re
 
 See [LICENSE](LICENSE) for the exact terms.
 
+## Support
+
+https://ko-fi.com/archetypezx
+
 ## Nexus page
 
 https://www.nexusmods.com/thebloodofdawnwalker/mods/554
